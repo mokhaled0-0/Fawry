@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    position: sticky;
+    border-radius: 7px;
+    min-height: 150vh;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+}
+
+.title {
+    color: #086c8e;
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    padding: 0;
+    height: 50vh;
+    background-image: url(img/fawrypay-245x180.png);
+}
+
+.pack {
+    border: solid 0.5em black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5em;
+    width: 20rem;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 5em;
+    text-align: center;
+}
+
+form h3 {
+    color: gold;
+}
+
+form input {
+    text-align: center;
+    border: none;
+    border-radius: 2em;
+    background-color: whitesmoke;
+    width: 33em;
+    height: 6.5em;
+    margin-top: 0.5em;
+}
+
+form button {
+    margin: 7px 0;
+    opacity: 1.0;
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #086c8e;
+    color: gold;
+    font-size: 22px;
+    border-radius: 7px;
+    text-align: center;
+    box-shadow: 0 6px 20px -5px rgba(0, 0, 0, 0.4);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: gold;
+    color: #086c8e;
+}
+
+.errors {
+    text-align: center;
+    margin-top: -2em;
+    margin-left: -1em;
+    color: black;
+}
+
+.bill {
+    margin-left: 33em;
+    text-align: center;
+    border-radius: 10px;
+    width: 30em;
+    height: 45em;
+    border-radius: 7px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    margin: 100px 525px;
+}
